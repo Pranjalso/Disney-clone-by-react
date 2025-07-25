@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
-<<<<<<< HEAD
 @tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -70,6 +70,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-=======
-@tailwind utilities;
->>>>>>> 47b808a (Project on disney plus hotstar)
