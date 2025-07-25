@@ -176,7 +176,16 @@ const HoverCard = ({ image, detail, description }) => {
   const Search = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [searchHistory, setSearchHistory] = useState([]);
-  
+
+    useEffect(() => {
+      const history = JSON.parse(localStorage.getItem("searchHistory")) || [];
+      setSearchHistory(history);
+    }, []);
+
+    useEffect(() => {
+      localStorage.setItem("searchHistory", JSON.stringify(searchHistory));
+    }, [searchHistory]);
+
     const handleInputChange = (e) => {
       setSearchTerm(e.target.value);
     };
