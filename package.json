@@ -13,8 +13,16 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
+<<<<<<< HEAD
     "react-router-dom": "^7.1.5",
     "tailwindcss-no-scrollbar": "^1.0.1"
+=======
+    "react-player": "^2.16.0",
+    "react-router-dom": "^7.1.5",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.7"
+>>>>>>> 47b808a (Project on disney plus hotstar)
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -27,7 +35,11 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
+<<<<<<< HEAD
     "postcss": "^8.5.1",
+=======
+    "postcss": "^8.5.2",
+>>>>>>> 47b808a (Project on disney plus hotstar)
     "tailwindcss": "^3.4.17",
     "vite": "^6.1.0"
   }
